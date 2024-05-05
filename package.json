@@ -9,18 +9,48 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^3.0.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@liveblocks/client": "^1.9.6",
+    "@liveblocks/node": "^1.9.6",
+    "@liveblocks/react": "^1.9.6",
+    "@liveblocks/react-comments": "^1.9.6",
+    "@liveblocks/yjs": "^1.9.6",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tiptap/extension-collaboration": "^2.3.1",
+    "@tiptap/extension-collaboration-cursor": "^2.3.1",
+    "@tiptap/extension-placeholder": "^2.3.1",
+    "@tiptap/extension-underline": "^2.3.1",
+    "@tiptap/pm": "^2.3.1",
+    "@tiptap/react": "^2.3.1",
+    "@tiptap/starter-kit": "^2.3.1",
+    "@types/uniqid": "^5.3.4",
+    "autoprefixer": "^10.4.19",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.3",
+    "next": "14.2.2",
+    "next-auth": "^4.24.7",
+    "postcss-nesting": "^12.1.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "react-sortablejs": "^6.1.4",
+    "sortablejs": "^1.15.2",
+    "uniqid": "^5.4.0",
+    "y-prosemirror": "^1.2.3",
+    "y-protocols": "^1.0.6",
+    "yjs": "^13.6.15"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.2"
+    "typescript": "^5"
   }
 }
