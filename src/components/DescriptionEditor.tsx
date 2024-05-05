@@ -27,9 +27,6 @@ export default function DescriptionEditor({
   cardId,
 }: EditorProps) {
   const userInfo = useSelf((me) => me.info);
-  if (!userInfo) {
-    return;
-  }
 
   const editor = useEditor({
     extensions: [
@@ -46,11 +43,12 @@ export default function DescriptionEditor({
       }),
       CollaborationCursor.configure({
         provider,
-        user: userInfo,
+        user: userInfo || undefined,
       }),
       Underline.configure({}),
     ],
   });
+
   return (
     <div>
       <div className="flex gap-1 mb-1 mt-2 editor-buttons">
